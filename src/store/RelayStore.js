@@ -41,6 +41,7 @@ import type {
 var storeData = RelayStoreData.getDefaultInstance();
 var queryRunner = storeData.getQueryRunner();
 var queuedStore = storeData.getQueuedStore();
+console.log('RelayStore:storeData', storeData);
 
 /**
  * @public

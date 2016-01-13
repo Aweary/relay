@@ -103,6 +103,8 @@ function RelayRootContainer({
   renderLoading,
   route,
 }: RootContainerProps): ReactElement {
+  console.log('route', route);
+  console.log('Component', Component);
   return (
     <RelayRenderer
       Component={Component}

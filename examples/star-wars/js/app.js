@@ -13,7 +13,7 @@
 import 'babel/polyfill';
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Relay from 'react-relay';
+import Relay from '../../../lib/Relay.js';
 import StarWarsApp from './components/StarWarsApp';
 import StarWarsAppHomeRoute from './routes/StarWarsAppHomeRoute';
 
